@@ -94,3 +94,8 @@ echo "$@"
 #
 # ADD YOUR CODE BELOW:
 
+#!/bin/sh
+for x in *.fasta; do
+        grep ">" $x | wc -l && echo $x
+done
+exit
