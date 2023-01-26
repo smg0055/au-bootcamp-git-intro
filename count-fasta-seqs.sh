@@ -99,3 +99,5 @@ for x in *.fasta; do
         grep ">" $x | wc -l && echo $x
 done
 exit
+
+#Not sure how to use expr
