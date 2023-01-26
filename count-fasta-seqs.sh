@@ -100,4 +100,17 @@ for x in *.fasta; do
 done
 exit
 
-#Not sure how to use expr
+## New script that gives the desired input and output but does not pass any of the tests and I'm not sure otherwise
+
+!/bin/sh
+
+sum=0
+
+for i in "$@"; do
+        Files=`basename $i`
+        Seqcount=`grep -c ">" $i`
+        echo $Seqcount $Files
+        sum=`expr $sum + $Seqcount`
+done
+
+echo $sum
