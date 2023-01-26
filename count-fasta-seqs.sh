@@ -100,7 +100,7 @@ for x in *.fasta; do
 done
 exit
 
-## New script that gives the desired input and output but does not pass any of the tests and I'm not sure otherwise
+## New script that gives the desired input and output but does not pass any of the tests and I'm not sure why
 
 !/bin/sh
 
