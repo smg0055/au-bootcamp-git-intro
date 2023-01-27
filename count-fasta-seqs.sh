@@ -94,15 +94,9 @@ echo "$@"
 #
 # ADD YOUR CODE BELOW:
 
+## Script that gives the desired input and output but does not pass any of the tests; Not sure why
+
 #!/bin/sh
-for x in *.fasta; do
-        grep ">" $x | wc -l && echo $x
-done
-exit
-
-## New script that gives the desired input and output but does not pass any of the tests and I'm not sure why
-
-!/bin/sh
 
 sum=0
 
@@ -118,3 +112,6 @@ echo $sum
 #you're getting close to having it act how you want - look at both blocks of code and remove anything that may not be necessary as you have two loops at the moment
 #just giving some comments to everyone so they can practice pushing/pulling and merging if necessary
 #let me know if you have any questions!
+
+# Whoops, I meant to delete that original loop so it's just the one
+# I'm not sure how to get it to stop echo-ing all of the input files after it loops through them and gives the sum, so any help with that would be appreciated 
