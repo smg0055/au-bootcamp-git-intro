@@ -114,3 +114,7 @@ for i in "$@"; do
 done
 
 echo $sum
+
+#you're getting close to having it act how you want - look at both blocks of code and remove anything that may not be necessary as you have two loops at the moment
+#just giving some comments to everyone so they can practice pushing/pulling and merging if necessary
+#let me know if you have any questions!
