@@ -115,3 +115,6 @@ echo $sum
 
 # Whoops, I meant to delete that original loop so it's just the one
 # I'm not sure how to get it to stop echo-ing all of the input files after it loops through them and gives the sum, so any help with that would be appreciated 
+
+#Ctracy comment: Look further up in your code to see if there is a spare line that needs to be commented out! (The issue isn't necessarily where you put your code in below line 96)
+
